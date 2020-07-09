@@ -6,7 +6,7 @@ Contém o modelo para uma planilha de acompanhamento dos dados, além de um scri
 
 Primeiro, importe a [planilha modelo](spreadsheet_model.ods) (`spreadsheet_model.ods`) para o Google Sheets.
 
-No [arquivo de script](code.gs) (`code.gs`), altere o `<SPREADSHEET-ID>` e o `<FIREBASE-URL>` do objeto `environment` pela ID da planilha do Google Sheets e a URL do Firebase Realtime Database, respectivamente. A URL precisa estar no formato "`https://<ID-DO-PROJETO-DO-FIREBASE>.firebaseio.com/`".
+No [arquivo de script](code.gs) (`code.gs`), altere o `<SPREADSHEET-ID>` e o `<FIREBASE-URL>` do objeto `environment` pela ID da planilha do Google Sheets e a URL do Firebase Realtime Database, respectivamente. A URL precisa estar no formato `https://<ID-DO-PROJETO-DO-FIREBASE>.firebaseio.com/`.
 
 Depois, na planilha, acesse a opção _Ferramentas_ -> _Editor de script_ e cole ambos os arquivos.
 
